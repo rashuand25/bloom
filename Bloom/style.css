@@ -1,0 +1,146 @@
+:root {
+    --topborder: rgba(38, 41, 46, 255);
+    --topbg: #e7718b;
+    --middlebg: #f4f4f6;
+    --middleborder: #f9e2e8;
+    --bottom-text: #d0d0d2;
+}
+
+@font-face {
+    font-family: customFont;
+    src: url(Giddyup\ Std\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    color: white;
+    background-color: var(--topborder);
+}
+
+.h1 {
+    font-family: customFont;
+    font-size: 60px;
+    margin-left: 150px;
+
+
+}
+
+.header-btn {
+    border-radius: 90%;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.h2 {
+    margin-left: 250px;
+    padding-top: 50px;
+
+}
+
+.learn-more-btn,
+.download-btn {
+    background-color: var(--topborder);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 35px;
+    width: 170px;
+}
+
+.top-section {
+    background-color: var(--topbg);
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+
+.top-content {
+    margin-top: 5px;
+    margin-left: 255px;
+    font-size: 15px;
+}
+
+.laptop-img {
+    position: absolute;
+    bottom: 250px;
+    left: 900px;
+
+}
+
+.middle-section {
+    background-color: var(--middlebg);
+    border-bottom: solid 6px var(--middleborder);
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.middle-text {
+    font-size: 15px;
+    color: var(--bottom-text);
+    font-weight: 200;
+}
+
+.middle-section-info {
+    margin-left: 70px;
+}
+
+/* .first-middle-section, .second-middle-section {
+    margin-top: 20px;
+} */
+
+.bottom-section {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 260px;
+}
+
+.saying-section {
+    position: absolute;
+    left: 762px;
+    bottom: 24px;
+}
+
+.saying-info {
+    color: var(--bottom-text);
+}
+
+.h4 {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.h3 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.footer-container {
+    background-color: var(--topborder);
+    color: var(--bottom-text);
+    font-size: 12px;
+}
+
+.copyright {
+    padding: 35px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+.bottom-btns {
+    padding: 35px;
+    margin-right: 60px;
+}
+
+.footer-btn {
+    border-radius: 90%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: white;
+    margin-right: 10px;
+}
